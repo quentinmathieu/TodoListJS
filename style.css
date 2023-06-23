@@ -1,0 +1,15 @@
+textarea {
+    overflow: auto;
+    resize: none;
+    
+  }
+
+  #todoCards{
+    display: flex;
+    gap : 10px;
+}
+
+#todo{
+      gap : 10px;
+    display: flex;
+  }
