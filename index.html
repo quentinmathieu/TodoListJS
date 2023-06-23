@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylee.css"> 
+    <link rel="shortcut icon" href="#">
+
     <title>Document</title>
 </head>
 <body>
@@ -12,15 +14,18 @@
         <h1>Todo list</h1>
         
         <div id="todo">
-            <button id="btn">add a task</button>
-                <div id="todoCards">
-
+            <button id="btn">Add a task</button>
+            <div id="todoCards">
+                <div class="todoCard">
                     <textarea class="task" maxlength="200" cols="20" rows="15">New task</textarea>
-                    
+                    <span class="delBtn"><i class="fa fa-trash" aria-hidden="true"></i></span>
                 </div>
+                    
+            </div>
         
         </div>
     </div>
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/70279edcf3.js" crossorigin="anonymous"></script>
 </body>
 </html>
