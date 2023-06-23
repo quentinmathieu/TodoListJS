@@ -4,12 +4,15 @@ textarea {
     
   }
 
-  #todoCards{
+#todoCards{
     display: flex;
+    flex-wrap: wrap;
     gap : 10px;
+    max-width: 100%;
 }
 
 #todo{
-      gap : 10px;
     display: flex;
-  }
+    flex-direction: column;
+    gap : 10px;
+}
